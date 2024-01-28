@@ -206,12 +206,11 @@ footer img {
 
     .about-me-text {
         font-size: 1.25rem;    
-        margin: 0 auto;
-        max-width: 50%;
+        /* max-width: 50%; */
     }
 
     #about-section p:first-child {
-        margin: 8px 15%;
+        margin: 0.5rem 15%;
         font-size: 1.25rem;
     }
 
@@ -225,8 +224,8 @@ footer img {
     }
 
     footer h2 {
-    display: flex;
-    justify-content: center;
-    margin: 1rem auto;
+        display: flex;
+        justify-content: center;
+        margin: 1rem auto;
     }
 }
