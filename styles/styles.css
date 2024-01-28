@@ -28,7 +28,7 @@
 body{
     background: var(--azureish-white);
     color: var(--almost-black);
-    font-family: var(--header-font);
+    font-family: var(--p-font);
     padding: 0 2rem;
 }
 
