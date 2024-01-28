@@ -195,14 +195,19 @@ footer img {
         margin-bottom: 1rem;
     }
 
-
     /* about section queries */
 
     #about-section {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .about-me-text {
+        font-size: 1.25rem;    
+        margin: 0 auto;
+        max-width: 50%;
     }
 
     #about-section p:first-child {
@@ -213,11 +218,15 @@ footer img {
     #about-section h2 {
         width: 100%;
     }
-
-
     
     /* footer queries */
     footer img {
         width: 8%
+    }
+
+    footer h2 {
+    display: flex;
+    justify-content: center;
+    margin: 1rem auto;
     }
 }
