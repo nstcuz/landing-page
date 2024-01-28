@@ -2,13 +2,11 @@
     --border-helper: 2px solid red;
     --header-font:  'Cabin', serif;
     --p-font: 'Inter', serif;
-
     --lightest-blue: #7AADCC;
     --blue: #3D7699;
     --azureish-white: #e6f7ff;
     --dark-blue: #10437c;
     --almost-black: #1f1f1f;
-    
     --border-rad: 8px;
 }
 
@@ -22,6 +20,10 @@
 
 
 /* --------- initial set up ------------ */
+
+* {
+    text-transform: lowercase;
+}
 
 body{
     background: var(--azureish-white);
@@ -38,11 +40,21 @@ h2, h3 {
     display: block;
     width: 100%;
 }
+
+h2 {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 2rem;
+}
  
 h3 {
-    font-size: 1.5rem;
     text-align: center;
 } 
+
+h4 {
+    font-family: var(--header-font);
+    font-size: 1.5rem
+}
 
 a {
     text-decoration: none;
@@ -69,6 +81,7 @@ header {
 h1 {
     font-size: 3rem;
     font-weight: 800;
+    font-family: var(--header-font);
 }
 
 li {
@@ -92,10 +105,6 @@ li {
 
 /* -----------about------------- */
 
-.about-section {
-    margin: 0 2rem;
-}
-
 .about-me-border {
     display: flex;
     justify-content: center;
@@ -110,10 +119,6 @@ li {
 }
 
 /* ----------projects-------------- */
-
-.project-section h2 {
-    text-align: center;
-}
 
 .project-section {
     display: flex;
@@ -171,10 +176,7 @@ footer img {
     width: 20%;
 }
 
-
-
 /* ------------- media queries ------------ */
-
 
 @media (min-width: 48em) {
 
@@ -196,24 +198,23 @@ footer img {
 
     /* about section queries */
 
-    .about-section p {
-        font-size: 1.25rem;
-    }
-
-    .about-section{
+    #about-section {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
     }
 
-    .about-me-textbox p:first-child {
+    #about-section p:first-child {
         margin: 8px 15%;
+        font-size: 1.25rem;
     }
 
-    .about-section h2 {
+    #about-section h2 {
         width: 100%;
     }
+
+
     
     /* footer queries */
     footer img {

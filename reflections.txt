@@ -1,0 +1,16 @@
+1. What is the URL of your landing page?
+https://niccousins.com/
+
+
+2. What is the URL of your GitHub repository?
+https://github.com/nstcuz/landing-page
+
+
+3. What is something you learned while working on the landing page? It can be about web
+development or your working process generally.
+I learned how to use the dev-tools a lot better than I could before. I also learned just how challenging it can be to keep CSS files organized, this was certainly my biggest struggle, so next time I need to pay attention to chronologically following the order of the HTML doc a bit closer. Also my first time setting up a website, with my own domain &amp; using a hosting platform. Im so cool and techy now.
+
+
+4. Was there anything you were unable to do on your landing page that you would have liked
+to do? Or anything you found particularly challenging?
+Aligning margins was very challenging for me. After a bit of googling it seems people will set a margin variable they can then use to change all margins on one line, so I will try that in the future. Other than that my issues were more or less struggling with design. In the future I know I need to put more effort in before I start coding, doing a mockup will help me a lot. But for the code I didn't want to go overboard as were currently learning the basics, I want to make sure I have locked in HTML semantics and have a stronger understanding of basic CSS before I go too crazy (: besides the landing page though I was having issues with Github, this taught me a bit about file permissions between my VM &amp; local computer, as well as git basics when pushing to a remote repository.
